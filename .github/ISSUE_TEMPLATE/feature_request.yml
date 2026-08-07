@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a credential-free, read-only capability.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What publisher workflow is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Trust boundary
+      options:
+        - label: This requires no Substack credentials, private endpoints, browser automation, or publishing.
+          required: true

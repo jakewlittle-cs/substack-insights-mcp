@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Test Publication</title>
+    <item>
+      <title>A useful first post</title>
+      <link>https://example.substack.com/p/first-post</link>
+      <guid isPermaLink="false">https://example.substack.com/p/first-post</guid>
+      <pubDate>Thu, 06 Aug 2026 14:00:00 GMT</pubDate>
+      <dc:creator>Test Author</dc:creator>
+      <category>Product</category>
+      <description><![CDATA[An <strong>introductory</strong> post.]]></description>
+      <content:encoded><![CDATA[<h2>Hello</h2><p>This is the complete <strong>sent</strong> content.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Second post</title>
+      <link>https://example.substack.com/p/second-post</link>
+      <guid isPermaLink="false">second-guid</guid>
+      <pubDate>Fri, 07 Aug 2026 14:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Another issue.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
